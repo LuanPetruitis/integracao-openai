@@ -1,7 +1,7 @@
 # pip install openai==0.28
 
 import openai
-import chatGPT
+import chatGPT # arquivo com a api key poderia ser uma env também
 
 openai.api_key = chatGPT.api_key
 
